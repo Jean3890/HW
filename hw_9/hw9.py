@@ -1,7 +1,7 @@
 import figure_area
 
-s1 = square(3)
-s2 = rectangle(4, 2)
+s1 = figure_area.square(3)
+s2 = figure_area.rectangle(4, 2)
 
 result = s1 - s2
 if result > 0:
